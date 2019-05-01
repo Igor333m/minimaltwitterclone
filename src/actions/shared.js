@@ -3,6 +3,7 @@ import { receiveTweets } from './tweets';
 import { receiveUsers } from './users';
 import { setAuthedUser } from './authedUser';
 
+// Hardcoded the name to avoid authentication
 const AUTHED_ID = 'tylermcginnis';
 
 export function handleInitialData () {
